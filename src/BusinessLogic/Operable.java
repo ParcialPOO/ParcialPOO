@@ -14,7 +14,7 @@ import java.util.List;
  */
 public interface Operable {
     
-    public List<Inmueble> importarImbuebles(String);
+    //public List<Inmueble> importarImbuebles(String);
     
     public void guardarImbuebles();
     

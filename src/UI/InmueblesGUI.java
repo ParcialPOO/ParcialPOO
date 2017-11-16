@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package parcial2;
+package UI;
 
 /**
  *
@@ -120,7 +120,7 @@ public class InmueblesGUI extends javax.swing.JFrame {
                 .addComponent(jButton1BorrarInm)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(jButton1ExportarReg)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 46, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addComponent(jButton1Salir, javax.swing.GroupLayout.PREFERRED_SIZE, 31, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(52, 52, 52))
         );
@@ -141,7 +141,7 @@ public class InmueblesGUI extends javax.swing.JFrame {
 
     private void jButton1AgregarInmActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1AgregarInmActionPerformed
         setVisible(false);
-        AgregarUnmuebleGUI vent = new AgregarUnmuebleGUI();
+        AgregarInmuebleGUI vent = new AgregarInmuebleGUI();
         vent.setVisible(true);
     }//GEN-LAST:event_jButton1AgregarInmActionPerformed
 
@@ -180,6 +180,10 @@ public class InmueblesGUI extends javax.swing.JFrame {
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
             java.util.logging.Logger.getLogger(InmueblesGUI.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
+        //</editor-fold>
+        //</editor-fold>
+        //</editor-fold>
+        //</editor-fold>
         //</editor-fold>
         //</editor-fold>
         //</editor-fold>
